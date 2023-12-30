@@ -1,0 +1,36 @@
+.friend__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.item {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  width: 200px;
+  box-shadow: 2px 6px 8px 4px #ccc;
+  gap: 12px;
+}
+.status {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.statusTrue {
+  composes: status;
+  background-color: green;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.avatar {
+  /* border: 1px solid #666666;
+  border-radius: 10px; */
+}
